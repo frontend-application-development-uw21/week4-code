@@ -11,11 +11,16 @@ function App() {
         return <Article key={idx} article={a} />
       })}
       <h1>My Blog</h1>
-      <Article article={{
+      {/* <Article article={{
         title: 'You wont believe this story',
         description: 'Click here to read more',
-        hasAudioAvailable: false
-      }} />
+        hasAudioAvailable: false,
+        author: {
+          name: 'Brian',
+          image: '',
+          isMediumMember: false
+        }
+      }} /> */}
     </div>
   );
 }
